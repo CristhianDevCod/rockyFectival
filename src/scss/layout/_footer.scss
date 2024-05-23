@@ -1,0 +1,18 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+.site-footer{    
+    background-color: v.$rosa;
+    p {
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+        padding: 2rem 3rem 1rem;
+
+        &:last-child {
+            padding-top: 0;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+    }
+}
